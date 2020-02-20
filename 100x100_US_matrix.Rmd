@@ -65,7 +65,7 @@ As the lighter the cell the higher the probability, the blue diagonal is an indi
 
 Let's now scale up to the 100x100 transition matrix. The data are available in .dta and .csv format on Opportunity Insigths' website. It contains a 100x100 transition matrix for the U.S. based on Chetty et al.'s core sample (1980-82 birth cohorts) and baseline family income definitions.
 ```{r data100100, echo=TRUE, include=TRUE, message=FALSE}
-data <- read_dta(file.choose())
+data <- read_dta("onlinedata1.dta")
 data <- data.frame(data)
 ```
 
